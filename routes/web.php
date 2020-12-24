@@ -14,7 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    // return view('welcome');
+    $post = \App\Post::all();
+    var_dump($post);
+    return view('welcome', ['props' => $post]);
 });
 
 Route::resources([

@@ -12,5 +12,7 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         // $this->call(UserSeeder::class);
+        var_dump('******************');
+        $this->call([PostSeeder::class]);
     }
 }
