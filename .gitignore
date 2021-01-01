@@ -1,1 +1,21 @@
+<<<<<<< Updated upstream
 node_modules
+=======
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+package-lock.json
+package.json
+tsconfig.json
+webpack.mix.js
+yarn.lock
+>>>>>>> Stashed changes
